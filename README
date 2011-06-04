@@ -1,0 +1,11 @@
+
+Example of loading Application Configuration in Rails 3
+
+How to use it?
+
+1. copy lib/app_config.rb to your <project>lib/app_config.rb
+2. Copy config/config.yml to your <project>/config/config.yml 
+3. Copy config/initializer/load_config.rb to your <project>/config/initializer/load_config.rb
+4. Modify config/config.yml to add your application configuration
+
+
