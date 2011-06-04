@@ -1,0 +1,13 @@
+
+development: &development
+  mailer_config:
+     host: 'localhost'
+
+test:
+  <<: *development
+
+production:
+  <<: *development
+
+
+
